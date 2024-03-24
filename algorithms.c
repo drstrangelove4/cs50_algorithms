@@ -38,8 +38,10 @@ int main()
     print_array(data);
     printf("\n");
 
-    // Merge sort
+    
     refresh_array_order(data);
+
+    // Merge sort
     printf("Merge sort algorithm:\n");
     printf("Pre sort: ");
     print_array(data);
